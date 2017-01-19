@@ -10,21 +10,27 @@ namespace Teh01
     {
         static void Main(string[] args)
         {
-            int number;
-            Console.Write("Anna numero >");
-            string line = Console.ReadLine();
-            bool result = int.TryParse(line, out number);
-            if (result == true)
+            int luku;
+            Console.Write("Gimme numbero 1-3 >");
+            luku = int.Parse(Console.ReadLine());
+
+            if (luku == 1)
             {
-                switch (number)
-                {
-                    case 1: Console.WriteLine("Yksi"); break;
-                    case 2: Console.WriteLine("Kaksi"); break;
-                    case 3: Console.WriteLine("Kolme"); break;
-                    default: Console.WriteLine("Joku muu luku"); break;
-                }
-                Console.ReadLine();
+                Console.WriteLine("Yksi");
             }
+            else if (luku == 2)
+            {
+                Console.WriteLine("Kaksi");
+            }
+            else if (luku == 3)
+            {
+                Console.WriteLine("Kolme");
+            }
+            else
+            {
+                Console.WriteLine("Joku muu luku: ");
+            }
+            Console.ReadLine();
         }
     }
 }
