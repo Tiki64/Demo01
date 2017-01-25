@@ -14,7 +14,7 @@ namespace Teh05
 
 
 
-            Console.WriteLine(" Syota sekunnit numerona ");
+            Console.WriteLine(" Syota sekunnit numeroina ");
             total = int.Parse(Console.ReadLine());
             minutes = total / 60;
             seconds = total % 60;

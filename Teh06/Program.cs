@@ -14,7 +14,7 @@ namespace Teh06
             double bensanhinta, bensanmaara;
             double hinta = 1.595;
 
-            Console.WriteLine(" Anna matka kilometreina ");
+            Console.WriteLine(" Anna matka kilometreina > ");
             matka = int.Parse(Console.ReadLine());
 
             bensanmaara = matka * 0.0702;
